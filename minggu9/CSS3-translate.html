@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tutorial CSS Tranform</title>
+    <link rel="stylsheet" type="text/css" href="style.css">
+</head>
+<body>
+    <style>
+        body{
+            background: #35A9DB;
+            font-family: roboto;
+            text-align: left;
+        }
+    </style>
+    <h1>Tutorial CSS Tranform</h1>
+    <h2>Translate( )</h2>
+    <style>
+        h1, h2{
+            color: #fff;
+        }
+
+        .ketengah{
+            margin: 10px auto;
+            width: 1150px;
+        }
+
+        .kotak1{
+            background: #fcfcfc;
+            padding: 20px;
+            float: left;
+            margin: 20px;
+            width: 150px;
+            height: 150px;
+        }
+
+        .kotak2{
+            background: #fcfcfc;
+            padding: 20px;
+            float: left;
+            margin: 20px;
+            width: 150px;
+            height: 150px;
+            -ms-transform: translate(50px,100px); /* Support IE 9 */
+            -webkit-transform: translate(50px,100px); /* support Safari */
+            transform: translate(50px,100px); /* Standard syntax */
+        }
+    </style>
+    <div class="kotak1">
+        Ini adalah kotak 1. Kotak ini tidak diberikan method translate
+    </div>
+    <div class="kotak2">
+        Ini adalah kotak 2. Ini contoh fungsi translate( ) CSS Tranform.
+    </div>
+</body>
+</html?
